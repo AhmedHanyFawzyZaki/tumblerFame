@@ -1,0 +1,51 @@
+body{ 
+margin:0; padding:0;
+height: 100%;
+width: 100%;
+font-size:12px ;
+min-height:100%;
+}
+h1, h2, h3, h4, h5, h6 {margin:0; padding:0; line-height:170%;}
+h1 { font-size:24px; }
+h2 { font-size:22px; }
+h3 { font-size:18px; }
+h4 { font-size:16px; }
+h5 { font-size:14px; }
+h6 { font-size:12px; }
+a img { border:0 none; }
+a{text-decoration:none;}
+ul { margin:0; padding:0; list-style:none; }
+.clear { clear:both; float:none; }
+
+/***************************** Header *****************************/
+.header{ background: url(../images/style/header-bg.png) repeat-x; height:73px; float:right; width:100%;}
+.inner-header{ width:960px; margin:0; padding:0; margin:0 auto;}
+.logo{ float:left; display:block; width:197px;}
+.menu{ margin:40px 0 0 20px; padding:0; float:left;}
+.menu li{ float:left; margin:2px;}
+.menu li span{ display:block;}
+.menu li a{ font-size:14px; color:#149fd9; display:block; text-align:center; padding:0 5px 0 5px;  text-decoration: none;}
+.menu li a:hover{ background-color:#0f91c7; color:#FFF; width:auto; text-decoration: none;}
+.top-nav{ float:right; margin:13px 0 0 0; padding:0;}
+.top-nav a{ font-size:11px;}
+
+/******************************* content ***************************/
+.content{ min-height:493px; padding-top:20px; width:100%; text-align:left; float:right; margin: auto;}
+
+/*************************** footer ******************************/
+.inner-footer{width:960px; margin:0 auto;}
+.bottom-nav{ margin:22px 127px 0 0; padding:0; float:left;}
+.bottom-nav li{ margin-bottom:5px;}
+.bottom-nav h5{ color:#0c7293; font-size:13px;}
+.bottom-nav a{ color:#505050; font-size:12px;}
+.bottom-nav a:hover{ text-decoration:underline;}
+.socail-icon{ margin:22px 0 0 0; padding:0; float:right;}
+.socail-icon h5{ color:#656565;}
+.copyright{ font-size:11px; color:#0c7293; display:block;}
+.copyright:hover{ text-decoration:underline;}
+.s-icons{ margin:0; padding:0;}
+.s-icons li{ float:left; margin-right:5px;}
+.s-icon1{ display:block; width:31px; height:31px; background: url(../images/style/social-icon.png) no-repeat;}
+.s-icon2{ display:block; width:31px; height:31px; background: url(../images/style/social-icon.png) no-repeat; background-position:0px -34px ;}
+.s-icon3{ display:block; width:31px; height:31px; background: url(../images/style/social-icon.png) no-repeat; background-position:0px -68px ;}
+.s-icon4{ display:block; width:31px; height:31px; background: url(../images/style/social-icon.png) no-repeat; background-position:0px -102px ;}

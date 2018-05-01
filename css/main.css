@@ -1,0 +1,351 @@
+html {
+    height: 100%;
+    min-height: 100%;    
+    direction: ltr;
+    margin: 0px;
+    padding: 0px;      
+}
+body {
+    height: 100%;
+    min-height: 100%;    
+    overflow-y: auto;
+    overflow-x: hidden;       
+    background: none repeat scroll 0% 0% #eeeeee;
+    direction: ltr;    
+    margin: 0px;
+    padding: 0px;    
+    font-family: arial; 
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+#form_full_width{
+
+    padding:0px;
+    width:100%;
+    float:left;    
+    
+}
+
+
+#form_left_part{
+    width:49%;
+    float:left;    
+    padding:0px;
+}
+
+
+#form_right_part{
+    width:49%;
+    float:right;
+    padding:0px;        
+}
+
+.form_container{
+    margin:10px;
+}
+
+
+.input_label{
+    font-size:16px;
+    font-weight:bold;
+}
+
+#sub_cat_results{
+    margin-bottom:10px;
+    
+}
+
+.mandatory{
+    color:#e87878;
+    margin-left:10px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.sub_label{
+    float : left;   
+    margin:0 10px 0 5px;    
+}
+
+.sub_checkbox{
+    float:left;
+}
+
+#mapCanvas{
+    border:1px solid #cccccc;
+    height: 100%;
+  width: 100%;
+}
+
+#mapCanvas label { width: auto; display:inline; }
+#mapCanvas img { max-width: none; }
+
+
+table {    
+    width:100%; 
+    text-align: left;  
+}
+
+#leads_list_table td{
+    border: 1px solid #bce8f1;     
+}
+
+
+
+.alert-green{background-color:#dff0d8;border-color:#b9d6a0;color:#468847;}
+.alert-red-light{background-color:#f2dede !important; border-color:#eed3d7 !important; color:#b94a48 !important;}
+.alert-blue{background-color:#c6e3f2 !important; border-color:#98d5e2 !important; color:#2e7ca3 !important;}
+
+.alert-white{background-color:#f2f2f2 !important; border-color:#d2d2d2 !important; color:#595858 !important;}
+.alert-purple{background-color:#eee0fd;border-color:#dec5fa;color:#845daf;}
+.alert-dark-purple{background-color:#aa78d1;border-color:#9346cd;color:#eee; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);}
+.alert-pink{background-color:#edd0d9;border-color:#e7b9c7;color:#c3325f;}
+
+.alert-sky{ background-color: #edf2fd !important; border-color: #ccdcff !important; color: #2f619f !important; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) !important;}
+.alert-gray { background-color: #858585 !important; border-color: #6c6c6c !important; color: #eee !important; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) !important;}
+.alert-black { background-color: #bebebe; border-color: #a3a0a0; color: #525252; }
+
+.alert-orange { background-color: #EEEEEE !important; border-color:#EEEEEE !important; color: #78530c !important; }
+
+.alert-kewy { background-color: #c8c55e !important; border-color: #b8b54c !important; color: #656209 !important; }
+
+.alert-dark-black { background-color: #525252 !important; border-color: #393939 !important; color: #eee !important; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) !important; }
+
+.alert-dark-blue{ background-color: #39aeeb !important; border-color: #299bd6 !important; color: #fff !important; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) !important;}
+
+.alert-facebook{ background-color: #668bc1 !important; border-color: #5b81b9 !important; color: #eee !important; text-shadow: 0 1px 0 #507ab9) !important;}
+
+
+.btn a,.btn a:hover{
+    text-decoration: none;
+}
+
+
+.btn-info a,.btn-info a:hover{
+    color:#fff;
+}
+
+
+.btn-inverse a,.btn-inverse a:hover{
+    color:#eee;
+}
+
+
+#logo{
+    margin-left: 30px; 
+    float: left;       
+}
+
+#logo a ,#header a{
+    color:#eee;    
+}
+
+#logo a:hover{
+    color:#eee;
+    text-decoration: none;    
+}
+
+#popup_membership_form{
+    cursor: pointer;
+	float:right;
+	margin:0 10px;
+}
+
+#messaging_channels{
+    float:left;
+    border:1px solid #d9e2f7;
+    width:220px;    
+    height:460px;
+}
+
+#messaging_channels_list{
+    width:220px;    
+    height:420px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#messaging_channels_head{
+    border-bottom: 1px solid #d9e2f7;
+    font-size:18px;
+    text-align: center;
+    height:30px;
+    padding-top:10px;
+    background:#d9e2f7;
+}
+
+
+.messaging_channel{
+    padding:5px;
+    border-bottom: 1px solid #d9e2f7;
+    cursor:pointer;
+}
+
+
+
+.messaging_channel:hover{
+    background-color:#e1e7f6 !important; 
+    border-bottom:1px solid #ccdcff !important; 
+    color:#4c67a4;
+}
+
+.selected_messaging_channel{
+    background-color:#edf2fd !important; 
+    border-top:1px solid #ccdcff !important;      
+    color:#4c67a4;
+}
+
+
+
+#messaging_pan{
+    border: 1px solid #d9e2f7;
+    height:350px;  
+    width:60%;
+    float:left;      
+    margin-left: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;    
+}
+
+#loading{
+    border: 1px solid #d9e2f7;
+    height:25px;  
+    width:60%;
+    float:left;      
+    margin: 5px 0 0 5px;    
+}
+#loading_state_container{
+    margin-top:3px;
+    font-size:12px;
+    font-family:tahoma;
+    float:left;
+    margin-left: 20px;
+    color:#a3a3a3;
+}
+
+#new_pm{
+    border: 1px solid #d9e2f7;
+    height:70px;  
+    width:60%;
+    float:left;      
+    margin: 5px 0 0 5px;
+}
+
+#new_pm textarea{
+    resize:none;
+    height:40px;
+    margin-top:10px;
+    margin-left:20px;
+    width:70%;
+}
+
+#new_pm button{
+    margin-top:15px;
+    margin-left: 5px;
+}
+
+#loading_messages{
+    margin-top: 160px;
+    text-align: center;
+    color:#999;
+}
+
+.single_pm{    
+    padding:5px;
+    border-bottom: 1px solid #f2f2f2;
+        
+}
+
+.single_pm:hover{
+    background:#edf2fd;
+    border-bottom: 1px solid #d9e2f7;    
+}
+
+.usertype_1{
+    color:#e46262;
+}
+
+.usertype_2{
+    color:#506dad;    
+}
+
+#header_notifs{
+    padding:0 10px; 
+    margin-left: 20px; 
+    float:left;
+    cursor: pointer;
+}
+
+#header_notifs a,#header_notifs a:hover{
+    color: #78530c ;
+}
+
+.single_notif{
+    border-bottom:1px solid #ddd; 
+    padding: 2px;
+ padding-left: 12px;
+}
+
+.notif_time{
+    float: right;
+ padding-right: 12px;
+}
+
+.notif_title{
+    font-size: 14px; 
+    
+}
+
+.notif_desc{
+	
+     font-size: 14px; 
+}
+.notif_date{
+	 font-size: 14px; 
+	 
+
+	}
+
+
+.course_levels{
+    float:right;
+}
+
+.level_price{
+    float:right;
+    margin-top:0px;    
+}
+
+.level_price a{
+    width:130px;
+}
+.package_price{
+    float:right;
+    margin-top:5px;    
+}
+
+.package_price a{
+    width:230px;
+}
+
+
+.course_title{
+    font-size:20px;
+    font-weight:bold;
+    margin-top:5px;
+}
+
+
+
+
+.level_title{
+    font-size:16px;
+    font-weight:bold;
+}

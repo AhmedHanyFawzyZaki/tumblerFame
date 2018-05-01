@@ -1,0 +1,75 @@
+.boxContainer {
+	width:960px;
+	margin: 0 auto;
+}
+.box {
+	padding-top:20px;
+	padding-right:120px;
+	width:165px;
+	height:115px;
+	float: left;
+	margin-right: 25px;
+	padding-left: 10px;
+	margin-bottom:10px;
+}
+.box {
+	line-height:150%;
+}
+.box01 {
+	background-image:url(../images/box01.png);
+}
+.box01 h3 a {
+	color:#075f82;
+}
+.box01 p {
+	color:#585957
+}
+.box02 {
+	background-image:url(../images/box02.png);
+}
+.box02 h3 a {
+	color:#0a4056;
+}
+.box02 p {
+	color:#fff
+}
+.box03 {
+	background-image:url(../images/box03.png);
+}
+.box03 h3 a {
+	color:#fff;
+}
+.box03 p {
+	color:#bab9b9
+}
+.mainBox {
+	width:470px;
+	height:200px;
+	padding-right:210px;
+	width:250px;
+	padding-left:10px;
+	float: left;
+	margin-left: 10px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.mainBox .moreBtn {
+	width:84px;
+	height:29px;
+	float:left
+}
+.mainBox h3 a {
+	color:#0d8dbf
+}
+.mainBox p {
+	color:#333;
+	font-size:12px;
+	height:118px;
+	overflow: hidden;
+}
+.box1 {
+	background-image:url(../images/mainBox01.png)
+}
+.box2 {
+	background-image:url(../images/mainBox02.png)
+}

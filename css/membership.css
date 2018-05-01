@@ -1,0 +1,130 @@
+#membership_container{
+    width:600px;
+}
+
+#login , #register{
+
+    width:250px;
+    color:#5e5e5e;
+}
+
+
+#login{
+    float:left;   
+}
+
+#register{
+    float:right;
+}
+
+
+.membership{
+    text-align: left;
+}
+
+.membership label{
+    text-align: left;
+    font-size:14px;
+    font-weight: bold;
+    font-family: arial;
+    display: block; 
+    line-height: 16px !important;
+    float: left;
+}
+
+.membership input,.membership label{
+    text-align: left;
+	margin: 4px;
+}
+
+
+.membership button{
+    float:left;
+    font-size:16px;
+    font-weight: bold;
+    font-family: arial;
+    margin-top:5px;
+}
+
+.membership-social{
+    float: left; margin-top: 40px;
+}
+
+
+#membership_errors{
+    display: none;
+    text-align: left;
+}                 
+
+#close_popup{
+    font-size:20px;
+    font-weight: bold;
+    font-family: arial;    
+    cursor: pointer;
+    float:right;
+}
+
+.field_rule{
+    font-weight: normal !important;
+    font-size: 10px !important;
+    font-family: tahoma !important;    
+    margin-right: 40px;
+    float: right;
+}
+
+
+.mail_confirm div,.mail_confirm{
+    
+    text-align:center;
+    margin: auto;
+    
+}
+
+.mail_confirm a{
+    line-height: 25px;
+    font-size:16px;
+    font-weight: bold;
+    font-family: arial; 
+
+}
+
+.big_alert{
+ 
+    width:500px;
+    font-size:30px;
+    font-weight: bold;
+    padding:20px !important;
+    line-height: 40px;
+    
+}
+
+#close_membership_errors{
+    float:right;
+    font-size:20px;
+    font-weight: bold;
+    font-family: arial;    
+    cursor: pointer;    
+}
+
+.alert-blue{
+    padding:5px 5px 5px 30px !important;
+    margin:5px !important;
+    font-family: arial;
+    font-size:16px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.alert-red{
+    padding:5px !important;
+}
+
+.alert-red li{
+    margin-left: 20px;
+}
+
+#pwindicator{
+	margin-bottom: 10px;
+	clear: both;
+}
+
